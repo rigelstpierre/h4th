@@ -1,0 +1,27 @@
+.container {
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  line-height: 45px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 0.67px;
+  line-height: 48px;
+  text-decoration: underline;
+  text-align: center;
+}
