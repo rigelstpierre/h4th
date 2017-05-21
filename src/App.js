@@ -1,12 +1,29 @@
 import React, { Component } from 'react';
 import Header from './Header.js';
 import Letter from './Letter.js';
+import Stories from './Stories.js';
 import Footer from './Footer.js';
 import 'normalize.css';
 import './App.css';
+import axios from 'axios';
 import {Helmet} from "react-helmet";
 
 class App extends Component {
+  constructor() {
+    super();
+
+		this.state = {
+			stories: [],
+		}
+
+		axios
+			.get("/stories.json")
+			.then((result) => {
+        this.stories = result.data;
+        this.setState({ stories: this.stories });
+			});
+  }
+
   render() {
     return (
       <div className="App">
@@ -20,6 +37,7 @@ class App extends Component {
 
         <Header />
         <Letter />
+        <Stories stories={this.state.stories} />
         <Footer />
       </div>
     );

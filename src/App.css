@@ -25,3 +25,19 @@ h3 {
   text-decoration: underline;
   text-align: center;
 }
+
+p {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 0.67px;
+  line-height: 20px;
+}
+
+strong {
+  font-family: "Gotham SSm A", "Gotham SSm B";
+  font-style: normal;
+  font-weight: 500;
+}

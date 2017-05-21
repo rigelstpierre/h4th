@@ -10,7 +10,7 @@ class Header extends Component {
             <a href="#" className="logo"></a>
           </div>
           <div className="callout"></div>
-          <a href="#" className="button">Give Today</a>
+          <a href="http://vantagechurch.com/give" className="button">Give Today</a>
         </div>
       </header>
     );
