@@ -41,3 +41,25 @@ strong {
   font-style: normal;
   font-weight: 500;
 }
+
+.give {
+  padding: 180px 0;
+  position: relative;
+}
+
+.give h2, .give a, footer h2, footer h2{
+  z-index: 10;
+  position: relative;
+}
+
+.big-v {
+  background: url(/images/v.png) no-repeat;
+  background-size: contain;
+  display: block;
+  width: 447px;
+  height: 711px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}

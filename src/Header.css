@@ -53,3 +53,12 @@ header {
   background-color: #B5A37A;
   color: #fff;
 }
+
+@media (max-width: 400px) {
+  .top-bar {
+    padding: 35px 0 0 0px;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+}
