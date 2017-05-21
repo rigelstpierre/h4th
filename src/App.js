@@ -38,6 +38,11 @@ class App extends Component {
         <Header />
         <Letter />
         <Stories stories={this.state.stories} />
+        <section className="give">
+          <h2>Your generosity makes a way for others.</h2>
+          <a href="http://vantagechurch.com/give" className="button">Give Today</a>
+          <div className="big-v"></div>
+        </section>
         <Footer />
       </div>
     );

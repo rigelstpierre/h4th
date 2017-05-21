@@ -4,11 +4,11 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <header>
+        <header>
+        <div className="top-bar">
+          <a href="http://vantagechurch.com" className="logo"></a>
+        </div>
         <div className="container">
-          <div className="top-bar">
-            <a href="#" className="logo"></a>
-          </div>
           <div className="callout"></div>
           <a href="http://vantagechurch.com/give" className="button">Give Today</a>
         </div>
